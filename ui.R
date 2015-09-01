@@ -12,8 +12,7 @@ shinyUI(fluidPage(
             p("If you run out of inspiration, here are some suggestions:"),
             tags$ol(
                 tags$li("mo.gaff"), 
-                tags$li("cpp2412"), 
-                tags$li("barackobama"),
+                tags$li("SaschaGrey"),
                 tags$li("parishilton")
             )
         ),
@@ -23,7 +22,7 @@ shinyUI(fluidPage(
             p("This application returns a google map with geotags for the last 
 20 media (pictures & videos) of the user whose username you entered in the right 
 Box. To do this, the app retrieves the media a user posted on instagram and only 
-keeps the posts with geolocation data (longitude & latitude )"), 
+keeps the posts with geolocation data (longitude & latitude )."), 
             
             conditionalPanel(
               condition = "input.goButton > 0",
